@@ -1,0 +1,6 @@
+IndicatorType,Indicator,Status,Reason
+SenderDomain,micros0ft-support.example,Simulated-Suspicious,Typosquatted Microsoft-style domain using zero instead of letter o
+ReplyToDomain,secure-mail.example,Simulated-Suspicious,Reply-To domain differs from sender domain
+URL,microsoft-security-check[.]example/login,Defanged-Simulated,Credential-verification style phishing URL
+Subject,Urgent: Your Microsoft 365 Account Will Be Suspended,Suspicious,Urgency and account suspension threat
+Brand,Microsoft 365,Impersonated,Message falsely claims to represent Microsoft
