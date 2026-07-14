@@ -1,36 +1,18 @@
-# Initial Phishing Email Analysis
+From: Microsoft Security <security-alert@micros0ft-support.example>
+Reply-To: account-review@secure-mail.example
+To: employee@example.com
+Subject: Urgent: Your Microsoft 365 Account Will Be Suspended
+Date: Tue, 14 Jul 2026 09:30:00 +0530
 
-## Email Summary
+Dear User,
 
-- Claimed sender: Microsoft Security
-- Actual sender domain: micros0ft-support.example
-- Reply-To domain: secure-mail.example
-- Subject: Urgent account suspension warning
-- Embedded URL: hxxps://microsoft-security-check[.]example/login
+We detected unusual activity on your Microsoft 365 account.
 
-## Suspicious Indicators
+Your account will be suspended within 24 hours unless you verify your identity immediately.
 
-- Brand impersonation
-- Typosquatted sender domain using `0` instead of `o`
-- Reply-To domain differs from sender domain
-- Urgent and threatening language
-- Request for immediate account verification
-- Suspicious external login link
-- Generic greeting
+Verify your account:
+hxxps://microsoft-security-check[.]example/login
 
-## Initial Risk Rating
+Failure to complete verification may result in permanent account suspension.
 
-High
-
-## Initial Assessment
-
-The email displays multiple phishing characteristics, including brand impersonation, domain spoofing, urgency, and a credential-harvesting link. The message should be treated as malicious in a training context.
-
-## Recommended Actions
-
-- Do not click the link
-- Do not reply to the sender
-- Report the message to the security team
-- Block the sender and related domains
-- Search the environment for similar messages
-- Reset credentials if the link was accessed
+Microsoft Security Team
