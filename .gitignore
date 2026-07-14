@@ -1,0 +1,24 @@
+# Sensitive or raw email evidence
+Evidence/Raw/
+Sample-Email/Original/
+*.eml
+*.msg
+
+# Potentially unsafe attachments
+*.exe
+*.dll
+*.js
+*.vbs
+*.bat
+*.cmd
+*.scr
+*.ps1
+*.zip
+*.rar
+*.7z
+
+# Temporary files
+*.tmp
+*.log
+Thumbs.db
+desktop.ini
